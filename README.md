@@ -2,6 +2,15 @@
 
 This is a rough script for downloading videos from the Harmontown.com website.
 
+Output snippet:
+```
+page 6
+    Downloading https://download.harmontown.com/video/harmontown-2019-04-01-final.mp4 to /Users/bipster/Desktop/temp/video-episode-328-jeffs-joke-corner.mp4
+     Progress: 3% 6% 9% 12% 15% 19% 22% 25% 28% 31% 35% 38% 41% 44% 47% 51% 54% 57% 60% 63% 66% 70% 73% 76% 79% 82% 86% 89% 92% 95% 98% 
+    Downloading https://download.harmontown.com/video/harmontown-2019-03-25-final.mp4 to /Users/bipster/Desktop/temp/video-episode-327-a-cardigan-with-stab-holes.mp4
+     Progress: 3% 7% 11% ...
+```
+
 ## Overview
 
 * This is a Groovy script that requires Java be installed on your computer.  If you are on a Mac, this should work as-is.
