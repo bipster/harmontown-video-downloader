@@ -4,4 +4,4 @@ script.output.dir=
 harmontown.username=
 harmontown.password=
 harmontown.url.login=https://www.harmontown.com/wp-login.php
-harmontown.url.pagetemplate=https://www.harmontown.com/category/podcasts/page/${0}/
+harmontown.url.pagetemplate=https://www.harmontown.com/category/podcasts/page/{0}/
