@@ -18,8 +18,26 @@ For the benefit of not just the community's but your own ability to download vid
 * This requires an active subscription to [Harmontown.com](http://www.harmontown.com)
 * If the script dies for some reason, you will be able to restart the script from where you left off; you will not have to start from scratch
 
+## Preparing the Script
+Copy `harmontown.properties.template` to `harmontown.properties` and fill in these properties:
+* `script.output.dir` -- The directory path on your computer whereto you want these files downloaded. `/example/path/format/`
+If your filepath has spaces in it, put this in double-quotes.
+* `harmontown.username` -- Your login username
+* `harmontown.password` -- Your login password
+
+You can leave the other properties w/ with their defaults.
+
 ## Running the Script
 (TODO)
 
 ## Restarting the Script
-(TODO)
+
+By default, the script starts at the first page of podcasts, downloading files one by one until it gets to the last page.
+
+If you need to stop your script at some point, or it crashes, look through the output to determine which page the script
+had stopped.  Change these properties in your `harmontown.properties` and restart the script:
+
+* `script.page.start` -- Change to the page from which you would like the script to start
+* `script.page.end` -- If desired, change to the page on which you would like the script to end.  Useful for if you
+only want to download portions of the archive, or only want to download a single page of files (e.g. if you find one is
+corrupted)
