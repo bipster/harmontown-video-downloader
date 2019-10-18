@@ -33,7 +33,7 @@ Download the script using the green "Clone or download" button (Download zip) an
 
 Copy `harmontown.properties.template` to `harmontown.properties` and fill in these properties:
 * `script.output.dir` -- The directory path on your computer whereto you want these files downloaded. `/example/path/format/`
-If your filepath has spaces in it, put this in double-quotes.
+If your filepath has spaces in it, put this in double-quotes.  Use this forward-slash format even if you are on a Windows machine.
 * `harmontown.username` -- Your login username
 * `harmontown.password` -- Your login password
 
@@ -42,12 +42,13 @@ You can leave the other properties w/ with their defaults.
 ## Running the Script
 If you are on the Mac, the easiest approach might be:
 1. Open Terminal
-2. `cd [DIRECTORY YOU UNPACKED THE ZIP TO`
-3. `/bin/bash harmontown-downloader.sh`
+2. `cd [DIRECTORY OF YOUR UNPACKED ZIP]`
+3. `sh harmontown-downloader.sh` This is a very simple -- and probably unnecessary -- wrapper around the Java command inside the file (which you can run directly).
 
-If you are on Windows, you should be able to run the `java` command inside the `harmontown-downloader.sh` directly, but
-you'll probably have to make an adjustment or two.  Seek help in the Reddit thread or create a GitHub issue in this repo
-if you get stuck.
+If you are on Windows (and have a recent Java installed!):
+1. Open Command Prompt
+2. `cd [DIRECTORY OF YOUR UNPACKED ZIP]`
+3. Run: `java -classpath %cd%/lib/*;%cd% groovy.ui.GroovyMain src/org/bipsterite/DownloadVideos.groovy` -- This is the Windows version of the Java command inside `harmontown-downloader.sh`
 
 ## Restarting the Script
 
