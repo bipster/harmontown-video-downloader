@@ -19,6 +19,8 @@ page 6
 * If the script dies for some reason, you will be able to restart the script from where you left off; you will not have to start from scratch
 * This only downloads the full-resolution videos.  It skips both low-resolution videos and audio files
 
+**Note:** As of October 21, 2019, 66 of the 99 archive pages at Harmontown.com contain 227 videos, totaling ~237.5 GB.  As-is, the script will scrape the first 98 archive pages for videos -- quickly skipping over any that lack videos -- which should be sufficient until .. the End :(  The first attempt at a video episode was Episode 117 - "Debbie Request Permission To Do Dallas"
+
 ## Be Good
 
 ### Pay the subscription fee
