@@ -38,6 +38,7 @@ Copy `harmontown.properties.template` to `harmontown.properties` and fill in the
 If your filepath has spaces in it, put this in double-quotes.  Use this forward-slash format even if you are on a Windows machine.
 * `harmontown.username` -- Your login username
 * `harmontown.password` -- Your login password
+* `harmontown.download.*` -- change to `true` for the ones you want
 
 You can leave the other properties w/ with their defaults.
 

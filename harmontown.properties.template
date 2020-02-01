@@ -5,3 +5,6 @@ harmontown.username=
 harmontown.password=
 harmontown.url.login=https://www.harmontown.com/wp-login.php
 harmontown.url.pagetemplate=https://www.harmontown.com/category/podcasts/page/{0}/
+harmontown.download.audio=false
+harmontown.download.videolow=false
+harmontown.download.videohigh=false
